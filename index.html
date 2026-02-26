@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia Patterson Website</title>
+
+    <link rel="stylesheet" href="styles.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f94be39611.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+    <div class="navbar__background"></div>
+    <div class="navbar__container">
+        <div class="title">
+            <div class="gradient__text">
+                <a href="Jindex.html">JULIA PATTERSON</a>
+            </div>
+        </div>
+
+      <!-- Toggle -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+      <!-- Navbar menu -->
+        <ul class="navbar__menu">
+        <li class="navbar__item">
+            <a href="#about" class="navbar__links">About me</a>
+        </li>
+
+        <li class="navbar__item dropdown">
+            <a href="#work-exp" class="navbar__links" id="nav-exp-down"><p>Experience</p><i class="fa-solid fa-caret-down"></i></a>
+            <a href="#work-exp" class="navbar__links" id="nav-exp-side"><p>Experience</p><i class="fa-solid fa-caret-right"></i></a>
+            <div class="dropdown-content">
+            <a href="#coops">Co-op Positions</a>
+            <a href="#leadership">Volunteer Positions</a>
+            </div>
+        </li>
+
+        <li class="navbar__item dropdown">
+          <a href="#projects" class="navbar__links" id="nav-proj-down"><p>Projects</p><i class="fa-solid fa-caret-down"></i></a>
+          <a href="#projects" class="navbar__links" id="nav-proj-side"><p>Projects</p><i class="fa-solid fa-caret-right"></i></a>
+          <div class="dropdown-content">
+            <a href="#capstone">4th Year Project</a>
+            <a href="#tuhh">TUHH Publication</a>
+            <a href="#ewb">EWB Graphic Design</a>
+            <a href="#rrr">RRR Graphic and Website Design</a>
+          </div>
+        </li>
+
+        <li class="navbar__item dropdown">
+          <a href="#workaway" class="navbar__links" id="nav-volunteer-down"><p>Volunteer Travel</p><i class="fa-solid fa-caret-down"></i></a>
+          <a href="#workaway" class="navbar__links" id="nav-volunteer-side"><p>Volunteer Travel</p><i class="fa-solid fa-caret-right"></i></a>
+          <div class="dropdown-content">
+            <a href="#housesitting">TrustedHousesitters</a>
+            <a href="#wwoof">WWOOF</a>
+            <a href="#heidis">Ravens Rest Retreat</a>
+          </div>
+        </li>
+
+        <li class="navbar__item">
+          <a href="#fun" class="navbar__links">Adventures</a>
+        </li>
+
+        <li class="navbar__item">
+          <a href="#contact" class="navbar__links">Contact</a>
+        </li>
+        </ul>
+    </div>
+    </nav>
+
+    <!-- Professional "about me" -->
+    <div class="main" id="profesh-about">
+        <h2>WHO AM I</h2>
+        <div class="career-blurb">
+            <div class="headshot">
+                <figure>
+                    <img src="images/headshot.jpeg" class="headshot__img">
+                    <figcaption>
+                        <div class="social__media">
+                            <div class="social__icons">
+                                <a href="https://www.linkedin.com/in/juliapatterson/" class="social__icon--link" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="mailto:julia.patterson@uwaterloo.ca" class="social__icon--link" target="_blank">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://www.researchgate.net/profile/Julia-Patterson-6?ev=hdr_xprf" class="social__icon--link" target="_blank">
+                                    <i class="fa-brands fa-researchgate"></i>
+                                </a>
+                                <a href="Patterson_Julia_Resume.pdf" class="social__icon--link" target="_blank">
+                                    <i class="fa-solid fa-file"></i>
+                                </a>
+                                <a href="tel:16134848669" class="social__icon--link" target="_blank">
+                                    <i class="fa-solid fa-phone"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="career-text">
+                <p>
+                    I am a 2025 graduate of the undergraduate Chemical Engineering program at the University of Waterloo. My previous roles have given me valuable insight into the research world, process and manufacturing engineering, quality assurance, and developing and implementing sustainable policies and regulations. Throughout my degree, I gained international experience completing an 8-month international co-op in Hamburg, Germany, and a 6-month international exchange semester at Swansea University in Wales. 
+                </p>
+                <div class="career-text-mobile-response">
+                    <p>
+                    My primary area of interest is creating a more sustainable future. I am specifically interested in sustainable plastics through material design, recycling and sustainable processes, as well as in bioplastics and biomaterials, to work towards a circular economy. I know I want to contribute to meaningful, inclusive, and impactful work in the STEM fields that focus on the environment and bettering society.
+                    </p>
+
+                    <p>Please see my resume for more information about my skills and experience, as well as my contact information. I would love to hear from you!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Personal "about me" -->
+    <div class="main" id="about">
+        <h1>ABOUT ME</h1>
+        
+        <div class="block1">
+            <figure>
+                <img src="images/marathon.jpeg" class="marathon__img">
+                <figcaption>Reykjavik, Iceland 2023</figcaption>
+            </figure>
+            <p>
+                My hometown is Kingston, but I studied Chemical Engineering at the University of Waterloo, and through international opportunities, I developed a love for travel. I was fortunate enough to go to Germany for 8 months for a co-op and then Wales for 6 months for an exchange semester, where afterwards, I did some travelling in Europe through TrustedHouseSitters. Immediately after finishing exams in my final semester, I went to Argentina for a month to volunteer on farms as a WWOOFer. These experiences have taught me a lot about myself, and they have given me an even greater appreciation for other cultures and people.
+            </p>
+        </div>
+
+        <div class="block2">
+            <figure>
+                <img src="images/Tobermoryjump.jpeg" class="Tobermoryjump__img">
+                <figcaption>Bruce Peninsula National Park, Canada 2024</figcaption>
+            </figure>
+            <p>
+                I've grown up playing competitive sports my entire life, and staying physically active has always been important to me. I have found new enjoyment through climbing and long-distance running, while of course still enjoying the sports I grew up with, speed skating and soccer. I have tried surfing and windsurfing a few times, and I would love to do more. Hiking and camping have also become favourite outdoor activities. Anything I can do outdoors, I enjoy. In quieter moments, I enjoy knitting, reading, listening to podcasts, baking, doing jigsaw puzzles, and language learning. Lately, I've been focusing on Spanish and German.
+            </p>
+        </div>
+    </div>
+
+    <!-- Experience --> 
+    <div class="main" id=work-exp>
+        <h2>EXPERIENCE</h2>
+        <!-- co-ops -->
+        <div class="co-ops" id="coops">
+            <h3>Co-op Positions</h3>
+            <div class="emnandi">
+                <div class="jobtitle-skills">
+                    <h4>Research Intern @ Emnandi Bioplastics 
+                    <a href="https://www.linkedin.com/company/emnandi-bioplastics/" target="_blank"><i class="fab fa-linkedin"></i></a> X ASTUTE Centre of Excellence <a href="https://www.swansea.ac.uk/science-and-engineering/research/materials-manufacturing/astute/#:~:text=At%20the%20ASTUTE%20Centre%20of,technologies%20to%20complex%20manufacturing%20challenges" target="_blank"><i class="fa-solid fa-globe"></i></a> : Jan 2024 - June 2024</h4>
+                </div>
+                <p><em><strong>Skills:</strong> Experimental design, literature reviews, mechanical properties testing, LaTeX </em><br> 
+                <li>Conducted mechanical testing on recycled PLA (DSC, MFI, tensile), serving as a key enabler for a vast number of experiments and achieving a highly comprehensive analysis within a limited timeline and budget: significantly enhanced the speed and accuracy of our work, ensuring that the results were conclusive and enabled the company to set the foundations for further research and commercialization </li>
+                <li>Performed a comprehensive literature review on PLA and recycled PLA properties, supporting innovative projects and advancing understanding in the field</li></p>
+            </div>
+            <div class="tuhh">
+                <div class="jobtitle-skills">
+                    <h4>Research Assistant @ Hamburg University of Technology <a href="https://www.linkedin.com/school/technische-universit%C3%A4t-hamburg/posts/?feedView=all" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://www.tuhh.de/gbt/willkommen" target="_blank"><i class="fa-solid fa-globe"></i></a>: May 2023 - Dec 2023</h4>
+                    </div>
+                <p><em><strong>Skills:</strong> Python, data processing, academic research, geotechnical engineering lab tests, LiDAR scanning</em><br>
+                <li>Designed and executed 150+ geotechnical laboratory experiments (Atterberg limits, triaxial, sedimentation) to evaluate the impact of salinity on clay behaviour and adhesion mechanisms relevant to tunnelling and underground construction</li>
+                <li>Analyzed experimental data using Python and MATLAB, integrating outputs from specialized geotechnical software and LiDAR point clouds to generate quantitative insights, preparing publication-ready data</li>
+                <li>Conducted in-depth literature reviews on emerging research into salinity–clay interactions to establish design criteria and support project recommendations</li></p>
+            </div>
+            <div class="zeton">
+                <div class="jobtitle-skills">
+                    <h4>Project Engineering Student @ Zeton Inc. <a href="https://www.linkedin.com/company/zeton/posts/?feedView=all" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://www.zeton.com" target="_blank"><i class="fa-solid fa-globe"></i></a>: Sept 2022 - Dec 2022</h4>
+                    </div>
+                <p><em><strong>Skills:</strong> AutoCAD P&ID, packaging and shipping, purchase orders, VBA for Excel </em><br> 
+                <li>Inspected, verified, and tagged 250+ instruments, valves, and equipment on-site using P&IDs, AutoCAD, and NavisWorks, ensuring accurate alignment between design and plant conditions</li>   
+                <li>Automated label generation and documentation workflows with Excel and VBA, significantly reducing labour time</li>
+                <li>Coordinated with vendors to create purchase orders and BOMs in Microsoft Dynamics, and assisted with packaging optimization to ensure efficient and accurate project shipping</li></p>
+            </div>
+            <div class="eccc">
+                <div class="jobtitle-skills">
+                    <h4>Engineering Student @ Environment and Climate Change Canada <a href="https://www.linkedin.com/company/environment-canada/posts/?feedView=all" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://www.canada.ca/en/environment-climate-change/services/managing-pollution/energy-production/fuel-regulations/clean-fuel-regulations.html" target="_blank"><i class="fa-solid fa-globe"></i></a>: Sept 2022 - Dec 2022</h4>
+                    
+                </div>
+                <p><em><strong>Skills:</strong> ISO Standards, QA, verification and validation, accreditation, SOP development</em><br>
+                <li>Supported the Quality Assurance Program for the Clean Fuel Regulations by developing SOPs, internal guidance documents, and literature reviews to guide implementation and compliance</li>
+                <li>Gained hands-on experience with verification and validation processes, certification pathways, risk assessments, and accrediting body requirements while increasing expertise in ISO standards for life cycle assessment (LCA), greenhouse gases (GHGs), and environmental management</li>
+                <li>Created clear, detailed presentations to communicate complex regulatory and technical concepts to diverse stakeholders, ensuring alignment with international GHG reporting frameworks</li></p>
+            </div>
+            <div class="snolab">
+                <div class="jobtitle-skills">
+                    <h4>Research Assistent @ SNOLAB <a href="https://www.linkedin.com/company/snolab/posts/?feedView=all" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://www.snolab.ca" target="_blank"><i class="fa-solid fa-globe"></i></a>: May 2021 - August 2021</h4>
+                    
+                </div>
+                <p><em><strong>Skills:</strong> Clean labs, QA, remote troubleshooting, controls testing</em><br>
+                <li>Supported commissioning of two underground tellurium (Te) chemical plants by conducting controls testing, chemical analyses, and QA testing to ensure safe startup and adherence to project timelines</li>
+                <li>Collaborated with R&D teams to troubleshoot processes, including isolating impurities in chemical compounds and validating quality standards</li>
+                <li>Contributed to the SNO+ collaboration by assisting with remote detector monitoring, preparing hourly performance reports, and completing technical project tasks during operational shifts</li></p>
+            </div>
+        </div>
+        <!-- Volunteer -->
+        <div class="leadership" id="leadership">
+            <h3>Volunteer and Leadership Roles</h3>
+            <div class="engsoc">
+                <h4>University of Waterloo Engineering Society <a href="https://www.engsoc.uwaterloo.ca/" target="_blank"><i class="fa-solid fa-globe"></i></a></h4>
+                <div class="sub-positions">
+                    <div class="foodfair">
+                        <h5>International Food Fair Director: Sept - Dec 2024</h5>
+                        <li>Hosted 400+ attendees, providing a platform to share the food and culture of 8 student societies</li>
+                        <li>Facilitated communication with university clubs for an international food fair event</li>
+                        <li>Coordinated with the faculty, the undergraduate student society, and the engineering society about event logistics</li>
+                    </div>
+                    <div class="edicomm">
+                        <h5>EDI Commissioner: Jan 2022 - April 2023</h5>
+                        <li>Spearheaded initiatives such as inclusivity training and cultural open mic nights, and continued on several initiatives such as policy review to improve the EDI of the society</li>
+                        <li>Worked with the executive team and faculty to aid in the education of the importance of EDI</li>
+                        <li>Re-established the portfolio to full capacity since before COVID</li>
+                        <li>Awarded the Engineering Society President's Award: awarded for valuable assistance to the activities of the society</li>
+                    </div>
+                    <div class="orifice">
+                        <h5>Office Staff Member: Jan 2022 - April 2023</h5>
+                        <li>Assisted students with EngSoc services and logistics for events, such as room booking and equipment rental</li>
+                        <li>Directed students to different engineering resources related to academics, mental health, athletics and other campus services</li>
+                    </div>
+                    <div class="exambank">
+                        <h5>Exam Bank Director: Sept - Dec 2021</h5>
+                        <li>Manaaged and organized over 100+ exam bank submissions</li>
+                        <li> Troubleshot login issues with several students, ensuring access to the bank</li>
+                        <li>Facilitated raffles, increasing submissions by 200%</li>
+                        <li>Awarded the Engineering Society President's Award: awarded for valuable assistance to the activities of the society</li>
+                    </div>
+                </div>
+            </div>
+            <div class="engfaculty">
+                <h4>University of Waterloo Faculty of Engineering <a href="https://uwaterloo.ca/engineering/" target="_blank"><i class="fa-solid fa-globe"></i></a></h4>
+                <div class="sub-positions">
+                    <div class="embassador">
+                        <h5>Engineering Faculty Embassador: Sept 2022 - April 2025</h5>
+                        <li>ASpoke to prospective students about engineering at Waterloo, answering several questions through panels and webinars</li>
+                        <li>Participated in marketing campaigns leading to 50k+ views and increasing social media engagement</li>
+                        <li>Led 50+ department and faculty tours</li>
+                    </div>
+                    <div class="cde">
+                        <h5>Logistics and Travel Director for CFES' Conference on Diversity in Engineering @ UW 2023 <a href="https://www.linkedin.com/company/cde-cdi-2023/about/" class="sub-position-link" target="_blank"><i class="fa-solid fa-globe"></i></a>: Jan 2023 - Nov 2023</h5>
+                        <li>Worked with logistics team to coordinate venues and catering for 200+ attendees</li>
+                        <li>Negotiated travel discounts for delegates with airline, bus, and train companies, providing 10 to 15% discounts</li>
+                    </div>
+                </div>
+            </div>
+            <div class="coaching">
+                <h4>Kingston Striders Speed Skating Club <a href="https://speedskatingkingston.ca/" target="_blank"><i class="fa-solid fa-globe"></i></a></h4>
+                <div class="sub-positions">
+                    <div class="coach">
+                        <h5>Assistant Coach: Sept 2015 - Apr 2021</h5>
+                        <li>Assisted with supervision and ensured the safety of up to 30 skaters in the development group, youth and adults</li>
+                        <li>Led weekly early morning practices of the advanced group with programming assistance from the head coach</li>
+                        <li>Planned and carried out lesson plans for youth learning to skate and speed skate over 8-month periods in the skating season</li>
+                        <li>Chauffeured and helped the young athletes at local competitions be on time and prepare for their races</li>
+                    </div>
+                </div>
+            </div>
+            <div class="ewb">
+                <h4>Engineers Without Borders UW Chapter <a href="https://clubs.wusa.ca/club_listing/70" target="_blank"><i class="fa-solid fa-globe"></i></a></h4>
+                <div class="sub-positions">
+                    <div class="marketing">
+                        <h5>Digital Marketing Specialist for collaboration with CEMCOD <a href="https://cemcod.org" target="_blank" class="sub-position-link"><i class="fa-solid fa-globe"></i></a>: Sept 2021 - Dec 2021</h5>
+                        <li>Design social media graphics and organize social media campaigns for an NGO in Uganda, successfully increasing engagement and awareness of media literacy by 20%</li>
+                        <li>Collaborated with the UX/UI design team to improve website design</li>
+                    </div>
+                    <div class="workshops">
+                        <h5>Workshop Member for Youth Engagement and Design Portfolio: Jan 2022 - Aug 2022</h5>
+                        <li>Assisted in planning and carrying out a workshop in collaboration with the Engineering Change Lab on engineering mindset and ethics for 20+ university students</li>
+                        <li>Organized workshop about water consumption and scarcity for high school students, virtually delivering to 3 classes of approximately 25 students each</li>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="main" id="projects">
+        <h1>PROJECTS</h1>
+        <div class="capstone" id="capstone">
+            <h3>Capstone Design Project: Mechanical and Materials Co-lead @ UW</h3>
+            <p><strong>Skills:</strong> Autodesk Fusion 360, mechanical design, budget management, experimental design, presentation skills</p>
+            <p>
+                Gabura Union, in Bangladesh, faces water salinity issues that have only been increasing due to rising sea levels, with groundwater conductivity levels between 2060 and 3190 µS/cm, far above the WHO water quality limit of 750 µS/cm. Current desalination methods are costly and inaccessible to rural areas. Our team of 4 investigated a sustainable and small-scale solar still desalination system with the objective of being accessible to residents. The final design was composed of a water basin with a glass cover, enhanced with stilts and mirrors to direct sunlight onto its metallic base, improving heat transfer efficiency and desalinated water throughput.
+            </p>
+            <p>
+                I was the mechanical and materials co-lead in the development of our modular design, as well as the administrative and organizational lead. Technical tasks included experimental testing, construction of the prototype, and the 3D modelling and assembly guide of the prototype using Autodesk Fusion 360. Administrative tasks included room booking and scheduling, meeting documentation, and overall file management. 
+            </p>
+            <p>
+                My team and I competed in the Map the System campus finals at UW in 2025, where we placed in the top 5 of over 50 applicants. 
+            </p>
+            <div class="capstone-content">
+                <div class="vid">
+                    <video src="Assmebly video.mp4" width=100% height=auto controls controlslist="nodownload"></video>
+                    <p>Assembly Video Guide</p>
+                </div>
+                <embed height="400" src="https://drive.google.com/file/d/1k5v3L3I50nIoP-3JhaLB0IDC7yLbioIU/preview">
+                </embed>
+                <img src="images/mapthesystem.jpeg" class="mapthesystem__img">
+            </div>
+        </div>
+        <div class="tuhh" id="tuhh">
+            <h3>Publication @ TUHH</h3>
+            <p><strong>Skills:</strong> Python, literature reviews, geotechnical lab tests</p>
+            <div class="tuhh-content">
+                <div class="tuhh-blurb">
+                    <p>
+                    From May 2023 to December 2023, I was working a co-op at the Hamburg University of Technology (TUHH), assisting with research on clay and the effects of salt on its geotechnical properties. 
+                    </p>
+                    <p>
+                    In this role, I designed and executed the geotechnical lab tests (Atterberg limits and sedimentation), analyzed the results in Python, and prepared publication-ready data. 
+                    </p>
+                     <p>
+                    A conference paper titled "Influence of sodium chloride solutions on compressibility of reconstituted illite", where I received co-author credits, was published in June 2025 at the 5th International Symposium on Frontiers in Offshore Geotechnics. The article can be viewed on ResearchGate: <a class="tuhh-article" target="_blank" href="https://www.researchgate.net/publication/392656727_Influence_of_sodium_chloride_solutions_on_compressibility_of_reconstituted_illite">here</a>
+                     </p>
+                </div>
+                <div class="tuhh-pics">
+                    <figure>
+                        <img src="images/casagrande.jpeg" class="casagrande__img">
+                        <figcaption>Casagrande Test for Atterberg Limits</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/sedimentation.jpg" class="sedimentation__img">
+                        <figcaption>Sedimentation Columns - figure taken from article</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div> 
+        <div class="ewb-cemcod" id="ewb">
+            <h3>Graphic Design @ EWB UW X CEMCOD <a href="https://www.facebook.com/cemcod/" target="_blank"><i class="fa-brands fa-facebook"></i></a></h3>
+            <p><strong>Skills:</strong> Graphic design, Canva, collaboration with NGOs</p>
+            <div class="ewb-content">
+                <div class="ewb-blurb">
+                    <p>From September 2021 to December 2021, I was a member of the Engineers Without Borders (EWB) UW chapter design portfolio, where we collaborated with different start-ups and NGOs in Africa. 
+                    </p>
+
+                     <p>
+                    Working with an organization based in Uganda, the Center for Media Literacy and Community Development (CEMCOD), as a digital marketing specialist, I created social media graphics for a social media campaign with the objective to increase the engagement and awareness of media literacy. Our team created several different graphics, increasing media engagement and awareness by 20%.
+                     </p>
+                </div>
+                <div class="ewb-pics">
+                    <div class="example-graphics">
+                    <figure>
+                        <img src="images/media1.png" class="media1__img">
+                    </figure>
+                    <figure>
+                        <img src="images/media2.png" class="media2__img">
+                    </figure>  
+                    </div>
+                    <p>Example graphics designed</p>
+                </div>
+            </div>
+        </div>    
+            
+        <div class="rrr-web" id="rrr">
+            <h3>Graphic Design and Website Copywriter <a href="https://ravensrestretreat.com/" target="_blank"><i class="fa-solid fa-globe"></i></a> <a href="https://www.instagram.com/ravensrestretreat"><i class="fa-brands fa-instagram"></i></a></h3>
+            <p><strong>Skills:</strong> Graphic design, Squarespace, HTML/CSS, e-commerce</p>
+            <div class="rrr-web-content">
+                <div class="rrr-blurb">
+                    <p>Ravens Rest Retreat is a coastal farm stay located on the Minas Basin in Nova Scotia, offering experiences of a farm tour and a Nordic-style spa area. I helped with many different areas of the business, including financial reporting, interactions with guests, and marketing.
+                    </p>
+
+                    <p>
+                    I helped make updates to the Squarespace website to add a local attractions page with interactive map links, and integrating a scheduling tool, streamlining the experience booking process. I also helped launch their online store using Square eCommerce. Furthermore, I managed the social media, increasing interactions by 66.7% and views by 10K over a one-month period, as well as other promotional material.
+                    </p>
+                </div>
+                <div class="rrr-gallery-wrap">
+                    <img src="images/RRR_content/back.png" id="backbtn">
+                        <div class="rrr-gallery">
+                            <div>
+                                <span><img src="images/RRR_content/1.png"></span>
+                                <span><img src="images/RRR_content/2.png"></span>
+                                <span><img src="images/RRR_content/3.png"></span>
+                            </div>
+                            <div>
+                                <span><img src="images/RRR_content/4.png"></span>
+                                <span><img src="images/RRR_content/5.png"></span>
+                                <span><img src="images/RRR_content/6.png"></span>
+                            </div>
+                            <div>
+                                <span><video src="images/RRR_content/7.MP4" type="video/mp4" controls controlsList="nodownload"></video></span>
+                                <span><video src="images/RRR_content/8.MP4" type="video/mp4" controls controlsList="nodownload"></video></span>
+                            </div>
+                            <div>
+                                <span><video src="images/RRR_content/local-attractions.mov" type="video/mov" controls controlsList="nodownload" class="web-screen"></video></span>
+                            </div>
+                            <div>
+                                <span><video src="images/RRR_content/products.mov" type="video/mov" controls controlsList="nodownload" class="web-screen"></video></span>
+                            </div>
+                        </div>
+                   <img src="images/RRR_content/next.png" id="nextbtn">    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Volunteer and travel -->
+    <div class="main" id="workaway">
+        <h2>VOLUNTEER TRAVEL</h2>
+        <div class="trustedhousesitters" id="housesitting">
+        <h3>TrustedHousesitters <a href="https://www.trustedhousesitters.com/" target="_blank"><i class="fa-solid fa-globe"></i></a></h3>
+            <div class="housesitters-content">
+                <p>
+                    After completing my exchange in Wales, I decided to take the summer off to travel, and as a student, budget travel was the goal. I discovered TrustedHousesitters, a website that connects house and pet sitters with homeowners around the world, offering accommodation in exchange for pet care. As someone who has pets back home, it felt like a perfect fit. The homeowners showed me around before they left, and I had the chance to experience the local culture and explore the area like a local. 
+                </p>
+                <div class="housesitting-locs">
+                    <div class="switzerland">
+                        <h4>Saint-Cergue, Switzerland</h4>
+                        <figure>
+                            <img src="images/stcergehike.jpeg" class="housesitting__img">
+                        </figure>
+                        <figure>
+                            <img src="images/stcerguecat.jpeg" class="housesitting__img">
+                        </figure>
+                    </div>
+                    <div class="italy">
+                        <h4>Milan, Italy</h4>
+                        <figure>
+                            <img src="images/milanoconcerto.jpeg" class="housesitting__img">
+                        </figure>
+                        <figure>
+                            <img src="images/milano-mauri.jpeg" class="housesitting__img">
+                        </figure>
+                    </div>
+                    <div class="london">
+                        <h4>London, England</h4>
+                        <figure>
+                            <img src="images/london.jpeg" class="housesitting__img">
+                        </figure>
+                        <figure>
+                            <img src="images/london-sebastian.jpeg" class="housesitting__img">
+                        </figure>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="wwoof" id="wwoof">
+        <h3>WWOOF <a href="https://wwoof.net/" target="_blank"><i class="fa-solid fa-globe"></i></a></h3>
+            <div class="wwoof-content">
+                <p>
+                    I knew that after finishing my final semester, I wanted to take a so-called "grad trip," but I wasn’t sure where to go or what to do. Many of my classmates had made plans with friends, but that wasn’t the case for me. Since I had started learning Spanish a year earlier and was eager to improve quickly, I decided to choose a Latin American country to immerse myself in the language. Some of my friends had taken part in a farming and gardening exchange through WWOOF in Portugal, which inspired me to look into it as another great budget-friendly travel option. After doing some research, I realized it would be a perfect fit. 
+                </p>
+                <p>
+                    I was fortunate to spend an entire month in Argentina working on two different farms, learning many new skills, immersing myself in Argentinian culture, improving my Spanish, and meeting amazing people. 
+                </p>
+                <div class="wwoof-locs">
+                    <div class="lacumbre">
+                        <h4>La Cumbre, Córdoba, Argentina</h4>
+                        <div class="lacumbre-title-pics">
+                            <figure>
+                                <img src="images/invernadero.JPG" class="wwoof__img">
+                            </figure>
+                            <figure>
+                                <img src="images/solarcooker.jpeg" class="wwoof__img">
+                            </figure>
+                        </div>
+                        <div class="lacumbre-blurb">
+                            <p>
+                            In La Cumbre, I was helping build a greenhouse using stainless steel rods and polycarbonate. The farm was fully run on solar power, and we used a solar cooker to cook many of our meals. I learned about building a greenhouse in terms of materials, positioning, and the space inside, as well as about using a solar cooker.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="elbolson">
+                        <h4>El Bolsón, Patagonia, Argentina</h4>
+                        <div class="elbolson-title-pics">
+                            <div class="elbolson-landscape-pics">
+                                <figure>
+                                    <img src="images/cutting.png" class="wwoof__img" id="cutting">
+                                </figure>
+                                <figure>
+                                    <img src="images/laobra.jpeg" class="wwoof__img" id="laobra">
+                                </figure>
+                            </div>
+                            
+                            <figure>
+                                <img src="images/wood.jpeg" class="wwoof__img">
+                            </figure>
+                        </div>
+                        <div class="elbolson-blurb">
+                          <p>
+                            In El Bolsón, I was doing lots of carpentry work for a house being built in the town and assisting with preparing the large garden for winter. I learned how to use several power tools for woodworking, such as mitre saws, sanders, and about construction, and how to protect gardens over the winter. 
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heidis" id="heidis">
+            <h3>Raven's Rest Retreat <a href="https://ravensrestretreat.com/" target="_blank"><i class="fa-solid fa-globe"></i></a></h3>
+            <div class="heidi-content">
+                <p>
+                    In the summer of 2025, I spent my time helping at Ravens Rest Retreat, a farm stay on the coast of Nova Scotia. I was able to do this as I have a connection to the owner, and she and her partner were happy for me to come help in the summer, their busiest time of year. Here, they have highland cows, alpacas, chickens, and a donkey, where I helped with some of the daily animal care, including feeding and collecting eggs. I have also helped the owners with checking in guests, cleaning the cabins, giving farm tours, and some landscaping of the garden. With my engineering and science background, I have helped the owners streamline a lot of their administrative tasks, such as bookkeeping and scheduling, using Excel VBA. I have helped with website design using HTML/CSS to enhance the base template that Squarespace provides, and managed their social media. Additionally, I have written several SOPs to aid in overall documentation, but also to increase the value of the business to ensure an established turnkey business.
+                </p>
+                <div class="ravens-pics">
+                    <figure>
+                        <img src="images/cabin.jpeg" class="ravens__img">
+                    </figure>
+                    <figure>
+                        <img src="images/eggs.jpg" class="ravens__img">
+                    </figure>
+                    <figure>
+                        <img src="images/wellnessarea.jpeg" class="ravens__img">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fun pictures of stuff -->
+    <div class="main" id="fun">
+        <h1>ADVENTURES</h1>
+        <p>
+            I am grateful for the opportunities I have had to travel, experience new things, and meet new people. These are some of my favourite photos from my different adventures.
+        </p>
+
+        <div class="coolpics">
+            <div class="landscape">
+                <figure>
+                    <img src="images/skating.JPG" class="coolpics__img" id="skating">
+                    <figcaption>Speed Skating Competition in Clarington, qualifying me for Nationals in Calgary March, 2018</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/climbing.JPG" class="coolpics__img" id="climbing">
+                    <figcaption>Climbing at Slate Quarry, Snowdon, Wales, March 2024 </figcaption>
+                </figure>
+                <!-- <figure>
+                    <img src="images/lighthamburg.jpeg" class="coolpics__img" id="lighthamburg">
+                    <figcaption>Water Light Concert Planten un Blomen, Hamburg, Germany, September 2024 </figcaption>
+                </figure> -->
+            </div>
+            <!-- <figure>
+                <img src="images/coldplay.jpeg" class="coolpics__img">
+                <figcaption>Coldplay concert in Copenhagen, Denmark July 2023 </figcaption>
+            </figure> -->
+            <figure>
+                <img src="images/camino.jpeg" class="coolpics__img">
+                <figcaption>Completing 130km of Camino de Santiago Portuguese Way December 2023 </figcaption>
+            </figure>
+            <figure>
+                <img src="images/whw.jpeg" class="coolpics__img">
+                <figcaption>West Highland Way, Scotland April 2024 </figcaption>
+            </figure>
+            <figure>
+                <img src="images/montmin.jpeg" class="coolpics__img">
+                <figcaption>La Tournette, Montmin, France July 2024</figcaption>
+            </figure>
+            <figure>
+                <img src="images/ukee.JPG" class="coolpics__img" id="ukee">
+                <figcaption>Ucluelet, Vancouver Island, British Columbia June 2025 </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!-- Contact info -->
+    <div class="main" id="contact">
+        <h3>CONTACT INFO</h3>
+        <div class="social__media__ft">
+            <div class="social__icons__ft">
+                <a href="https://www.linkedin.com/in/juliapatterson/" class="social__icon--link-ft" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:julia.patterson@uwaterloo.ca" class="social__icon--link-ft" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://www.researchgate.net/profile/Julia-Patterson-6?ev=hdr_xprf" class="social__icon--link-ft" target="_blank">
+                    <i class="fa-brands fa-researchgate"></i>
+                </a>
+                <a href="Patterson_Julia_Resume.pdf" class="social__icon--link-ft" target="_blank">
+                    <i class="fa-solid fa-file"></i>
+                </a>
+                <a href="tel:16134848669" class="social__icon--link-ft" target="_blank">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+            </div>
+        </div>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </div>
+
+<footer>
+    <p>© Julia Patterson 2026.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
