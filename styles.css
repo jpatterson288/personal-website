@@ -855,6 +855,11 @@ video{
     .main p {
     padding: 10px;
     text-wrap: wrap;
+    text-align: left !important;
+    }
+
+    li {
+        text-align: left !important;
     }
 
     .navbar {
