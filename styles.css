@@ -24,9 +24,9 @@ body{
     max-width: 100%;
     overflow-x: hidden;
     color:#393939 !important;
-    font-size: 1rem;
-    user-select: none; 
-}
+    font-size: 1rem;}
+    /*user-select: none; 
+
 
 a, iframe, embed{
     pointer-events: auto;
