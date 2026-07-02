@@ -16,6 +16,7 @@ document.addEventListener('click', function(e) {
 // document.addEventListener('contextmenu', function(e) {
 //             e.preventDefault();
 //         });
+//
 
 const scrollContainer = document.querySelector(".rrr-gallery");
 const nextbtn = document.querySelector("#nextbtn");
